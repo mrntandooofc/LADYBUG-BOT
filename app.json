@@ -1,0 +1,17 @@
+{                                                                     
+  "name": "LADYBUG-bot",                                           
+  "description": "WhatsApp bot.",                                       
+  "repository": "https://github.com/mrntandooofc/LADYBUG-BOT",                                                                     
+  "logo": "https://files.catbox.moe/5bzcdl.jpg",           
+  "keywords": ["nodejs", "mrntando", "multi device"],                                               
+  "buildpacks": [                                                     
+    {                                                                   
+      "url": "heroku/nodejs"                                        
+    },                                                                
+    {                                                                   
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"                                                            
+    },                                                                
+    {                                                                   
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"                                                                  
+    }                                                            
+  ]                                                            
